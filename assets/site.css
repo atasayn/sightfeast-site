@@ -1,4 +1,4 @@
-/* Voya site: the app's split-flap concourse board on the web. Values mirror src/theme/tokens.ts. */
+/* Sightfeast site: the app's split-flap concourse board on the web. Values mirror src/theme/tokens.ts. */
 
 @font-face {
   font-family: 'Barlow Condensed';
@@ -347,15 +347,19 @@ h3,
 
 .marquee {
   display: flex;
-  gap: clamp(4px, 0.6vw, 8px);
+  gap: clamp(3px, 0.6vw, 8px);
   margin-bottom: clamp(24px, 3vw, 36px);
+  /* The cells share the row so the whole name fits any width; letters scale with the row */
+  container-type: inline-size;
 }
 .marquee .cell {
-  width: clamp(54px, 7.4vw, 92px);
-  min-height: clamp(70px, 9.6vw, 120px);
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 92px;
+  min-height: min(120px, 12.5cqi);
   padding: 0;
   justify-content: center;
-  font-size: clamp(46px, 6.6vw, 84px);
+  font-size: min(84px, 8.5cqi);
   line-height: 1;
   letter-spacing: 0;
   border-radius: var(--r-md);
@@ -839,6 +843,13 @@ h3,
 /* ---------- Responsive ---------- */
 
 @media (max-width: 960px) {
+  /* The ten-letter brand and the language switch leave no room for the section links */
+  .site-nav {
+    display: none;
+  }
+  .lang {
+    margin-left: auto;
+  }
   .hero .wrap {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -861,12 +872,6 @@ h3,
 }
 
 @media (max-width: 720px) {
-  .site-nav {
-    display: none;
-  }
-  .lang {
-    margin-left: auto;
-  }
   .departures .hide-sm {
     display: none;
   }
@@ -880,6 +885,19 @@ h3,
   .sources div {
     grid-template-columns: minmax(0, 1fr);
     gap: 4px;
+  }
+}
+
+@media (max-width: 520px) {
+  /* Brand and language switch do not fit one row on a phone: the switch drops below the brand */
+  .site-header .wrap {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .lang {
+    margin-left: 0;
   }
 }
 

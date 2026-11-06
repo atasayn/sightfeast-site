@@ -1,4 +1,4 @@
-/* Voya site: language switch, flap turns and the swipe demo. No dependencies, no tracking. */
+/* Sightfeast site: language switch, flap turns and the swipe demo. No dependencies, no tracking. */
 (function () {
   'use strict';
 
@@ -7,7 +7,7 @@
 
   var T = {
     en: {
-      'meta.title': 'Voya: swipe your way through a trip',
+      'meta.title': 'Sightfeast: swipe your way through a trip',
       skip: 'Skip to content',
       lang: 'Language',
       'nav.how': 'How it works',
@@ -43,7 +43,7 @@
         '381 dishes from seven countries, from simit to okonomiyaki, each with a quick way to find where to try it in your city.',
       'how.route': 'Route in one tap',
       'how.routeBody':
-        'Your picks go on the map. Split them into days, let Voya put the stops in a sensible order, and start the route in Google Maps.',
+        'Your picks go on the map. Split them into days, let Sightfeast put the stops in a sensible order, and start the route in Google Maps.',
       'how.country': 'Know the country',
       'how.countryBody':
         'Currency and exchange rate, emergency numbers, plug type, tipping, card or cash, plus the weather and public holidays for your travel dates.',
@@ -78,13 +78,13 @@
       'sources.rates': 'Exchange rates',
       'sources.ratesBody': 'European Central Bank, via Frankfurter',
       'closing.title': 'Boarding soon on <span lang="en">iOS</span> and <span lang="en">Android</span>',
-      'closing.intro': 'Voya is in its final round of testing. Write to us and we will send you one email when it launches.',
+      'closing.intro': 'Sightfeast is in its final round of testing. Write to us and we will send you one email when it launches.',
       'footer.privacy': 'Privacy policy',
       'footer.credits': 'Credits',
       'footer.cropped': 'Photos cropped to the card format.',
       'footer.fonts': 'Typeface: Barlow by Jeremy Tribby,',
       'privacy.title': 'Privacy policy',
-      'privacy.meta': 'Voya privacy policy',
+      'privacy.meta': 'Sightfeast privacy policy',
       'privacy.updated': 'Updated',
       'privacy.contact': 'Contact',
       'privacy.onlyIn': '',
@@ -93,7 +93,7 @@
       },
     },
     tr: {
-      'meta.title': 'Voya: kaydırarak gezini planla',
+      'meta.title': 'Sightfeast: kaydırarak gezini planla',
       skip: 'İçeriğe geç',
       lang: 'Dil',
       'nav.how': 'Nasıl çalışır',
@@ -129,7 +129,7 @@
         'Simitten okonomiyakiye yedi ülkeden 381 yemek; her birini şehrinde nerede deneyeceğini hızlıca bulursun.',
       'how.route': 'Tek dokunuşla rota',
       'how.routeBody':
-        'Seçtiklerin haritaya düşer. Günlere böl, durakları Voya mantıklı bir sıraya koysun, rotayı Google Maps’te başlat.',
+        'Seçtiklerin haritaya düşer. Günlere böl, durakları Sightfeast mantıklı bir sıraya koysun, rotayı Google Maps’te başlat.',
       'how.country': 'Ülkeyi tanı',
       'how.countryBody':
         'Para birimi ve döviz kuru, acil numaralar, priz tipi, bahşiş, kart mı nakit mi; gezi tarihlerin için hava durumu ve resmî tatiller.',
@@ -164,13 +164,13 @@
       'sources.rates': 'Döviz kurları',
       'sources.ratesBody': 'Avrupa Merkez Bankası, Frankfurter aracılığıyla',
       'closing.title': 'Yakında <span lang="en">iOS</span> ve <span lang="en">Android</span>’de',
-      'closing.intro': 'Voya son test aşamasında. Bize yaz, çıktığında sana tek bir e-posta gönderelim.',
+      'closing.intro': 'Sightfeast son test aşamasında. Bize yaz, çıktığında sana tek bir e-posta gönderelim.',
       'footer.privacy': 'Gizlilik politikası',
       'footer.credits': 'Künyeler',
       'footer.cropped': 'Fotoğraflar kart biçimine kırpıldı.',
       'footer.fonts': 'Yazı karakteri: Barlow, Jeremy Tribby,',
       'privacy.title': 'Gizlilik politikası',
-      'privacy.meta': 'Voya gizlilik politikası',
+      'privacy.meta': 'Sightfeast gizlilik politikası',
       'privacy.updated': 'Güncelleme',
       'privacy.contact': 'İletişim',
       'privacy.onlyIn': '',
@@ -179,7 +179,7 @@
       },
     },
     fr: {
-      'meta.title': 'Voya : composez votre voyage en balayant',
+      'meta.title': 'Sightfeast : composez votre voyage en balayant',
       skip: 'Aller au contenu',
       lang: 'Langue',
       'nav.how': 'Comment ça marche',
@@ -215,7 +215,7 @@
         '381 plats de sept pays, du simit à l’okonomiyaki, avec un moyen rapide de trouver où les goûter dans votre ville.',
       'how.route': 'Un itinéraire en un geste',
       'how.routeBody':
-        'Vos choix arrivent sur la carte. Répartissez-les sur plusieurs jours, laissez Voya ordonner les étapes, puis lancez l’itinéraire dans Google Maps.',
+        'Vos choix arrivent sur la carte. Répartissez-les sur plusieurs jours, laissez Sightfeast ordonner les étapes, puis lancez l’itinéraire dans Google Maps.',
       'how.country': 'Connaître le pays',
       'how.countryBody':
         'Monnaie et taux de change, numéros d’urgence, type de prise, pourboire, carte ou espèces, plus la météo et les jours fériés à vos dates.',
@@ -250,13 +250,13 @@
       'sources.rates': 'Taux de change',
       'sources.ratesBody': 'Banque centrale européenne, via Frankfurter',
       'closing.title': 'Bientôt sur <span lang="en">iOS</span> et <span lang="en">Android</span>',
-      'closing.intro': 'Voya est dans sa dernière phase de test. Écrivez-nous et nous vous enverrons un seul e-mail au lancement.',
+      'closing.intro': 'Sightfeast est dans sa dernière phase de test. Écrivez-nous et nous vous enverrons un seul e-mail au lancement.',
       'footer.privacy': 'Politique de confidentialité',
       'footer.credits': 'Crédits',
       'footer.cropped': 'Photos recadrées au format carte.',
       'footer.fonts': 'Police : Barlow, de Jeremy Tribby,',
       'privacy.title': 'Politique de confidentialité',
-      'privacy.meta': 'Politique de confidentialité de Voya',
+      'privacy.meta': 'Politique de confidentialité de Sightfeast',
       'privacy.updated': 'Mise à jour',
       'privacy.contact': 'Contact',
       'privacy.onlyIn': 'Cette politique est disponible en anglais et en turc. Voici la version anglaise.',
@@ -265,7 +265,7 @@
       },
     },
     it: {
-      'meta.title': 'Voya: organizza il viaggio scorrendo',
+      'meta.title': 'Sightfeast: organizza il viaggio scorrendo',
       skip: 'Vai al contenuto',
       lang: 'Lingua',
       'nav.how': 'Come funziona',
@@ -301,7 +301,7 @@
         '381 piatti da sette paesi, dal simit all’okonomiyaki, con un modo rapido per trovare dove provarli nella tua città.',
       'how.route': 'Un percorso con un tocco',
       'how.routeBody':
-        'Le tue scelte finiscono sulla mappa. Dividile in giorni, lascia che Voya metta le tappe in un ordine sensato e avvia il percorso in Google Maps.',
+        'Le tue scelte finiscono sulla mappa. Dividile in giorni, lascia che Sightfeast metta le tappe in un ordine sensato e avvia il percorso in Google Maps.',
       'how.country': 'Conosci il paese',
       'how.countryBody':
         'Valuta e cambio, numeri di emergenza, tipo di presa, mance, carta o contanti, più meteo e festività nazionali per le date del viaggio.',
@@ -336,13 +336,13 @@
       'sources.rates': 'Tassi di cambio',
       'sources.ratesBody': 'Banca centrale europea, tramite Frankfurter',
       'closing.title': 'Presto su <span lang="en">iOS</span> e <span lang="en">Android</span>',
-      'closing.intro': 'Voya è nell’ultima fase di test. Scrivici e ti manderemo una sola e-mail al lancio.',
+      'closing.intro': 'Sightfeast è nell’ultima fase di test. Scrivici e ti manderemo una sola e-mail al lancio.',
       'footer.privacy': 'Informativa sulla privacy',
       'footer.credits': 'Crediti',
       'footer.cropped': 'Foto ritagliate nel formato della carta.',
       'footer.fonts': 'Carattere: Barlow di Jeremy Tribby,',
       'privacy.title': 'Informativa sulla privacy',
-      'privacy.meta': 'Informativa sulla privacy di Voya',
+      'privacy.meta': 'Informativa sulla privacy di Sightfeast',
       'privacy.updated': 'Aggiornata',
       'privacy.contact': 'Contatto',
       'privacy.onlyIn': 'Questa informativa è disponibile in inglese e in turco. Qui sotto la versione inglese.',
@@ -351,7 +351,7 @@
       },
     },
     es: {
-      'meta.title': 'Voya: planifica tu viaje deslizando',
+      'meta.title': 'Sightfeast: planifica tu viaje deslizando',
       skip: 'Ir al contenido',
       lang: 'Idioma',
       'nav.how': 'Cómo funciona',
@@ -387,7 +387,7 @@
         '381 platos de siete países, del simit al okonomiyaki, con una forma rápida de encontrar dónde probarlos en tu ciudad.',
       'how.route': 'Una ruta con un toque',
       'how.routeBody':
-        'Tus elegidos van al mapa. Repártelos en días, deja que Voya ordene las paradas con sentido y empieza la ruta en Google Maps.',
+        'Tus elegidos van al mapa. Repártelos en días, deja que Sightfeast ordene las paradas con sentido y empieza la ruta en Google Maps.',
       'how.country': 'Conoce el país',
       'how.countryBody':
         'Moneda y tipo de cambio, números de emergencia, tipo de enchufe, propinas, tarjeta o efectivo, además del tiempo y los festivos de tus fechas.',
@@ -422,13 +422,13 @@
       'sources.rates': 'Tipos de cambio',
       'sources.ratesBody': 'Banco Central Europeo, a través de Frankfurter',
       'closing.title': 'Pronto en <span lang="en">iOS</span> y <span lang="en">Android</span>',
-      'closing.intro': 'Voya está en su última fase de pruebas. Escríbenos y te enviaremos un solo correo cuando salga.',
+      'closing.intro': 'Sightfeast está en su última fase de pruebas. Escríbenos y te enviaremos un solo correo cuando salga.',
       'footer.privacy': 'Política de privacidad',
       'footer.credits': 'Créditos',
       'footer.cropped': 'Fotos recortadas al formato de tarjeta.',
       'footer.fonts': 'Tipografía: Barlow, de Jeremy Tribby,',
       'privacy.title': 'Política de privacidad',
-      'privacy.meta': 'Política de privacidad de Voya',
+      'privacy.meta': 'Política de privacidad de Sightfeast',
       'privacy.updated': 'Actualizada',
       'privacy.contact': 'Contacto',
       'privacy.onlyIn': 'Esta política está disponible en inglés y en turco. A continuación, la versión inglesa.',
@@ -489,14 +489,14 @@
 
   function storageGet() {
     try {
-      return window.localStorage.getItem('voya-site-lang');
+      return window.localStorage.getItem('sightfeast-site-lang');
     } catch (e) {
       return null;
     }
   }
   function storageSet(value) {
     try {
-      window.localStorage.setItem('voya-site-lang', value);
+      window.localStorage.setItem('sightfeast-site-lang', value);
     } catch (e) {
       /* private mode: the choice lasts this visit only */
     }
@@ -618,7 +618,7 @@
 
     localizeCoverage(animate);
     if (deck) deck.relabel(animate);
-    if (window.voyaPrivacy) window.voyaPrivacy(lang, t);
+    if (window.sightfeastPrivacy) window.sightfeastPrivacy(lang, t);
   }
 
   function isVisible(el) {
